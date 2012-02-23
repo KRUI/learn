@@ -20,7 +20,8 @@ class Person(object):
 
 class Dog(object):
     def __init__(self, nickname, breed):
-        self.breed = ''
+        self.breed = breed
+        self.nickname = nickname
 
     def is_of_breed(self, breed):
         return breed == self.breed
@@ -35,3 +36,4 @@ class Girl(Person, Dog):
 
     def is_girl(self):
         return True
+
