@@ -3,7 +3,8 @@ Module documentation
 @author Fredrick Galoso
 """
 '''
-Function tutorial
+Block quote
+    Basic module, function, and class tutorial
 '''
 def adder(x, y):
     return x + y
