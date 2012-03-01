@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta charset="utf-8" />
+    <title>{{ person.firstname + ' ' + person.lastname }}</title>
+    <meta name="description" content="">
+    <!-- CSS -->
+    <style>
+        body {
+            font-family: Helvetica, Arial, sans-serif;
+            font-weight: normal;
+        }
+        h1 {
+            font-size: 30px;
+        }
+        strong {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        Hello, I am
+        <strong>
+            {{ person.firstname + ' ' + person.lastname }}
+        </strong>
+    </h1>
+    <p>
+        My username is "{{ person.username }}"
+    </p>
+</body>
+</html>
